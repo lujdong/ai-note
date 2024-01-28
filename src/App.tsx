@@ -1,9 +1,9 @@
-import NoteEditor from "./components/NoteEditor";
+import Editor from "@/components/Editor";
 
 function App() {
   return (
     <div className="app-container">
-      <NoteEditor />
+      <Editor />
     </div>
   );
 }

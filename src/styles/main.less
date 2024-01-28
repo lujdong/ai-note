@@ -1,1 +1,10 @@
+@import "antd/dist/reset.css";
 @import './tailwind.css';
+
+.bn-block-content.bn-is-empty.bn-has-anchor .bn-inline-content:before {
+  content: "空格唤起AI，‘/’唤起命令";
+}
+
+.bn-block-content[data-content-type=heading].bn-is-empty .bn-inline-content:before {
+  content: '请输入标题';
+}

@@ -1,0 +1,8 @@
+.editor-title {
+  content: attr(placeholder);
+}
+.editor-title:empty::before {
+  @apply absolute;
+  content: "请输入标题";
+  pointer-events: none;
+}
